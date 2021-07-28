@@ -1,0 +1,144 @@
+
+/* Class = "UILabel"; text = "ECG"; ObjectID = "0KC-8I-TcC"; */
+"0KC-8I-TcC.text" = "ECG";
+
+/* Class = "UILabel"; text = "Coagulation Test:"; ObjectID = "2c9-Rc-EO5"; */
+"2c9-Rc-EO5.text" = "Coagulation Test:";
+
+/* Class = "UILabel"; text = "A1C Blood Sugar Test:"; ObjectID = "3Tm-xO-Xuq"; */
+"3Tm-xO-Xuq.text" = "A1C Blood Sugar Test:";
+
+/* Class = "UILabel"; text = "Liver Test:"; ObjectID = "3he-98-Qdy"; */
+"3he-98-Qdy.text" = "Liver Test:";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "4Mu-Bz-sGH"; */
+"4Mu-Bz-sGH.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Resting ECG Results:"; ObjectID = "50T-hb-dae"; */
+"50T-hb-dae.text" = "Resting ECG Results:";
+
+/* Class = "UILabel"; text = "Type:"; ObjectID = "7Al-5E-rXJ"; */
+"7Al-5E-rXJ.text" = "Type:";
+
+/* Class = "UILabel"; text = "Blood tests are a method of assisting doctors and healthcare professionals to assess your health and to monitor a diagnosed condition."; ObjectID = "8vc-vy-CQh"; */
+"8vc-vy-CQh.text" = "Blood tests are a method of assisting doctors and healthcare professionals to assess your health and to monitor a diagnosed condition.";
+
+/* Class = "UILabel"; text = "Sex:"; ObjectID = "9Kk-yT-Grq"; */
+"9Kk-yT-Grq.text" = "Sex:";
+
+/* Class = "UILabel"; text = "Measures the level of haemoglobin in your blood, which allows red blood cells to carry oxygen. This can indicate if you have any infections or anaemia. A low haemoglobin level may mean the presence of anaemia or thalassemia (inherited condition causing your body to carry less haemoglobin than expected)."; ObjectID = "9Yr-Qf-vIt"; */
+"9Yr-Qf-vIt.text" = "Measures the level of haemoglobin in your blood, which allows red blood cells to carry oxygen. This can indicate if you have any infections or anaemia. A low haemoglobin level may mean the presence of anaemia or thalassemia (inherited condition causing your body to carry less haemoglobin than expected).";
+
+/* Class = "UILabel"; text = "Blood Tests"; ObjectID = "A0s-62-lwB"; */
+"A0s-62-lwB.text" = "Blood Tests";
+
+/* Class = "UILabel"; text = "Slope of ST Segment:"; ObjectID = "BXd-pV-auc"; */
+"BXd-pV-auc.text" = "Slope of ST Segment:";
+
+/* Class = "UILabel"; text = "Diagnose or exclude the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       "; ObjectID = "Bhb-Sm-wRt"; */
+"Bhb-Sm-wRt.text" = "Diagnose or exclude the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       ";
+
+/* Class = "UILabel"; text = "An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work  with increased activity."; ObjectID = "C2b-OA-KcM"; */
+"C2b-OA-KcM.text" = "An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work  with increased activity.";
+
+/* Class = "UILabel"; text = "Measures the percentage of glucose bound haemoglobin there is present in your blood. A hormone called insulin allows glucose (sugar) to enter your blood. If there is not enough insulin, this glucose will stay in the blood. High blood sugar levels can damage blood vessels, causing diabetes andcoronary heart disease. "; ObjectID = "DO0-gY-RZ9"; */
+"DO0-gY-RZ9.text" = "Measures the percentage of glucose bound haemoglobin there is present in your blood. A hormone called insulin allows glucose (sugar) to enter your blood. If there is not enough insulin, this glucose will stay in the blood. High blood sugar levels can damage blood vessels, causing diabetes andcoronary heart disease. ";
+
+/* Class = "UISegmentedControl"; DWW-dF-xbr.segmentTitles[0] = "Female"; ObjectID = "DWW-dF-xbr"; */
+"DWW-dF-xbr.segmentTitles[0]" = "Female";
+
+/* Class = "UISegmentedControl"; DWW-dF-xbr.segmentTitles[1] = "Male"; ObjectID = "DWW-dF-xbr"; */
+"DWW-dF-xbr.segmentTitles[1]" = "Male";
+
+/* Class = "UILabel"; text = "Measures your blood's ability to clot and quickly your blood clots. This test helps the doctor to assess your chances of developing bleeding or clots in your blood vessels. "; ObjectID = "Dhc-pU-FVW"; */
+"Dhc-pU-FVW.text" = "Measures your blood's ability to clot and quickly your blood clots. This test helps the doctor to assess your chances of developing bleeding or clots in your blood vessels. ";
+
+/* Class = "UILabel"; text = "Shows if you have underactive or overactive thyroid gland as both situations produce a hormone called thyroxine. Any abnormal levels of this hormone can be related to some heart conditions and having a slow or fast heart rate."; ObjectID = "DnH-12-FhM"; */
+"DnH-12-FhM.text" = "Shows if you have underactive or overactive thyroid gland as both situations produce a hormone called thyroxine. Any abnormal levels of this hormone can be related to some heart conditions and having a slow or fast heart rate.";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "EsQ-jS-OiJ"; */
+"EsQ-jS-OiJ.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Natriuretic Peptides Test:"; ObjectID = "FPH-nZ-pPx"; */
+"FPH-nZ-pPx.text" = "Natriuretic Peptides Test:";
+
+/* Class = "UILabel"; text = "Blood Pressure (mmHg):"; ObjectID = "FwU-zB-Ehy"; */
+"FwU-zB-Ehy.text" = "Blood Pressure (mmHg):";
+
+/* Class = "UILabel"; text = "Shows how well your liver is functioning, and if it is not working as expected, it can affect the rest of the body."; ObjectID = "GMl-U9-w1j"; */
+"GMl-U9-w1j.text" = "Shows how well your liver is functioning, and if it is not working as expected, it can affect the rest of the body.";
+
+/* Class = "UILabel"; text = "Serum Cholesterol (mg/dL):"; ObjectID = "H7X-Ro-3GK"; */
+"H7X-Ro-3GK.text" = "Serum Cholesterol (mg/dL):";
+
+/* Class = "UILabel"; text = "Fasting Blood Sugar (mg/dL):"; ObjectID = "Klm-WJ-sdT"; */
+"Klm-WJ-sdT.text" = "Fasting Blood Sugar (mg/dL):";
+
+/* Class = "UILabel"; text = "Chest Pain:"; ObjectID = "NC6-Qj-YpN"; */
+"NC6-Qj-YpN.text" = "Chest Pain:";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "OpZ-zf-fnA"; */
+"OpZ-zf-fnA.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Tab-xs-kqc"; */
+"Tab-xs-kqc.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Vessels shown on Fluoroscopy:"; ObjectID = "Ukl-mU-ToS"; */
+"Ukl-mU-ToS.text" = "Vessels shown on Fluoroscopy:";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "aBD-LO-hC3"; */
+"aBD-LO-hC3.text" = "Age:";
+
+/* Class = "UILabel"; text = "Shows the level of hormones produced by the heart muscle cells. A BNP test looks for the B-type natriuretic peptide and the NT-proBNP test looks for the N-terminal pro-B-type natriuretic peptide. High levels of these hormones can indicate heart failure."; ObjectID = "bcf-tc-xwL"; */
+"bcf-tc-xwL.text" = "Shows the level of hormones produced by the heart muscle cells. A BNP test looks for the B-type natriuretic peptide and the NT-proBNP test looks for the N-terminal pro-B-type natriuretic peptide. High levels of these hormones can indicate heart failure.";
+
+/* Class = "UILabel"; text = "Maximum Heart Rate:"; ObjectID = "cpZ-qf-jg1"; */
+"cpZ-qf-jg1.text" = "Maximum Heart Rate:";
+
+/* Class = "UILabel"; text = "Types of blood tests"; ObjectID = "eFR-UG-iPO"; */
+"eFR-UG-iPO.text" = "Types of blood tests";
+
+/* Class = "UILabel"; text = "Cardiac fluoroscopy can help diagnose and treat conditions related to blood vessels. It will show the flow of your blood through the arteries and check if there are any blockages"; ObjectID = "fDq-qa-nT4"; */
+"fDq-qa-nT4.text" = "Cardiac fluoroscopy can help diagnose and treat conditions related to blood vessels. It will show the flow of your blood through the arteries and check if there are any blockages";
+
+/* Class = "UILabel"; text = "Measures cholesterol levels, which is a fatty substance made by the liver and some by the food that your body takes in. High levels of cholesterol can increase your chance of having a heart attack or a stroke."; ObjectID = "grA-DC-VEC"; */
+"grA-DC-VEC.text" = "Measures cholesterol levels, which is a fatty substance made by the liver and some by the food that your body takes in. High levels of cholesterol can increase your chance of having a heart attack or a stroke.";
+
+/* Class = "UILabel"; text = "Cardiac Enzyme Test (+ Tropinin Test):"; ObjectID = "hPY-FS-3U4"; */
+"hPY-FS-3U4.text" = "Cardiac Enzyme Test (+ Tropinin Test):";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "j2U-0m-Tfm"; */
+"j2U-0m-Tfm.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "Thalassemia:"; ObjectID = "j6f-d5-0xE"; */
+"j6f-d5-0xE.text" = "Thalassemia:";
+
+/* Class = "UILabel"; text = "Exercise Induced Angina:"; ObjectID = "mY7-Vn-yqk"; */
+"mY7-Vn-yqk.text" = "Exercise Induced Angina:";
+
+/* Class = "UILabel"; text = "X-Rays and Fluoroscopy"; ObjectID = "mxV-3E-jAF"; */
+"mxV-3E-jAF.text" = "X-Rays and Fluoroscopy";
+
+/* Class = "UILabel"; text = "Full Blood Count (FBC):"; ObjectID = "qQQ-0a-bJk"; */
+"qQQ-0a-bJk.text" = "Full Blood Count (FBC):";
+
+/* Class = "UILabel"; text = "(1: Typical Angina, 2: Atypical Angina,\n3: Non-Anginal Pain, 4: Asymptomatic)"; ObjectID = "qoq-ea-gx8"; */
+"qoq-ea-gx8.text" = "(1: Typical Angina, 2: Atypical Angina,\n3: Non-Anginal Pain, 4: Asymptomatic)";
+
+/* Class = "UILabel"; text = "(1: Upsloping, 2: Flat, 3: Downsloping)"; ObjectID = "vW4-Xp-Ba2"; */
+"vW4-Xp-Ba2.text" = "(1: Upsloping, 2: Flat, 3: Downsloping)";
+
+/* Class = "UILabel"; text = "(0 = Normal, 1 = ST-T wave abnormalities, 2 = Left ventricular hypertrophy by Estes' criteria)"; ObjectID = "wP9-Bx-0fR"; */
+"wP9-Bx-0fR.text" = "(0 = Normal, 1 = ST-T wave abnormalities, 2 = Left ventricular hypertrophy by Estes' criteria)";
+
+/* Class = "UILabel"; text = "(6: Fixed Defect, 7: Reversable Defect)"; ObjectID = "xF9-B8-S18"; */
+"xF9-B8-S18.text" = "(6: Fixed Defect, 7: Reversable Defect)";
+
+/* Class = "UILabel"; text = "ST Depression from Exercise:"; ObjectID = "z4I-7c-pCC"; */
+"z4I-7c-pCC.text" = "ST Depression from Exercise:";
+
+/* Class = "UILabel"; text = "Lipid Profile:"; ObjectID = "zb8-Yz-k0A"; */
+"zb8-Yz-k0A.text" = "Lipid Profile:";
+
+/* Class = "UILabel"; text = "Thyroid Function Test:"; ObjectID = "zgp-mO-r4L"; */
+"zgp-mO-r4L.text" = "Thyroid Function Test:";
