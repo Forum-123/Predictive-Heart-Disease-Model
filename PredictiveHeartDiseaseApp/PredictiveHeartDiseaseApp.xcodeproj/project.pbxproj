@@ -14,12 +14,12 @@
 		DC486FC726A9DE5F0018CD37 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486FC626A9DE5F0018CD37 /* WebViewViewController.swift */; };
 		DC486FCA26A9E27E0018CD37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC486FC926A9E27E0018CD37 /* WebKit.framework */; };
 		DC486FCC26AAFDE50018CD37 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486FCB26AAFDE50018CD37 /* AppHelper.swift */; };
-		DCAFBFA126A4CC4F00DDBBA5 /* HeartCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DCAFBFA026A4CC4E00DDBBA5 /* HeartCalculator.mlmodel */; };
 		DCC9E55F269B547200F42A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9E55E269B547200F42A5A /* AppDelegate.swift */; };
 		DCC9E567269B547200F42A5A /* PredictiveHeartDiseaseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCC9E565269B547200F42A5A /* PredictiveHeartDiseaseApp.xcdatamodeld */; };
 		DCC9E569269B547300F42A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC9E568269B547300F42A5A /* Assets.xcassets */; };
 		DCC9E56C269B547300F42A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC9E56A269B547300F42A5A /* LaunchScreen.storyboard */; };
 		DCC9E579269B59F000F42A5A /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9E578269B59F000F42A5A /* Predictor.swift */; };
+		DCCF3A3326B816470089808A /* HeartDiseaseCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DCCF3A3226B816460089808A /* HeartDiseaseCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		DC486FC626A9DE5F0018CD37 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		DC486FC926A9E27E0018CD37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DC486FCB26AAFDE50018CD37 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
-		DCAFBFA026A4CC4E00DDBBA5 /* HeartCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HeartCalculator.mlmodel; sourceTree = "<group>"; };
 		DCC9E55B269B547200F42A5A /* PredictiveHeartDiseaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PredictiveHeartDiseaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC9E55E269B547200F42A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC9E566269B547200F42A5A /* PredictiveHeartDiseaseApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PredictiveHeartDiseaseApp.xcdatamodel; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		DCC9E56B269B547300F42A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC9E56D269B547300F42A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC9E578269B59F000F42A5A /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		DCCF3A3226B816460089808A /* HeartDiseaseCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HeartDiseaseCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				DCC9E56A269B547300F42A5A /* LaunchScreen.storyboard */,
 				DCC9E56D269B547300F42A5A /* Info.plist */,
 				DCC9E565269B547200F42A5A /* PredictiveHeartDiseaseApp.xcdatamodeld */,
-				DCAFBFA026A4CC4E00DDBBA5 /* HeartCalculator.mlmodel */,
+				DCCF3A3226B816460089808A /* HeartDiseaseCalculator.mlmodel */,
 				DC486FCB26AAFDE50018CD37 /* AppHelper.swift */,
 			);
 			path = PredictiveHeartDiseaseApp;
@@ -197,11 +197,11 @@
 				DCC9E567269B547200F42A5A /* PredictiveHeartDiseaseApp.xcdatamodeld in Sources */,
 				DCC9E55F269B547200F42A5A /* AppDelegate.swift in Sources */,
 				DC1B7EBB26A899EB00D638E4 /* FirstViewController.swift in Sources */,
+				DCCF3A3326B816470089808A /* HeartDiseaseCalculator.mlmodel in Sources */,
 				DC486FCC26AAFDE50018CD37 /* AppHelper.swift in Sources */,
 				DC1B7EB926A8938700D638E4 /* ThirdViewController.swift in Sources */,
 				DCC9E579269B59F000F42A5A /* Predictor.swift in Sources */,
 				DC486FC726A9DE5F0018CD37 /* WebViewViewController.swift in Sources */,
-				DCAFBFA126A4CC4F00DDBBA5 /* HeartCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

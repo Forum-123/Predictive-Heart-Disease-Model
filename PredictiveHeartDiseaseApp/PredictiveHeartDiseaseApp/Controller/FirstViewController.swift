@@ -13,7 +13,7 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var scroller: UIScrollView!
     @IBOutlet weak var ageLabel: UILabel!
-    @IBOutlet weak var ageSlider: UISlider!
+    @IBOutlet weak var ageStepper: UIStepper!
     @IBOutlet weak var sexLabel: UILabel!
     @IBOutlet weak var sexSegmentedControl: UISegmentedControl!
     @IBOutlet weak var trestbpsTextField: UITextField!
@@ -40,12 +40,12 @@ class FirstViewController: UIViewController {
             self.present(thirdPage, animated: true, completion: nil)
         }
     }
-
-    @IBAction func ageSliderChanged(_ sender: UISlider) {
-        let step: Float = 1.0
+    
+    @IBAction func ageStepperChanged(_ sender: UIStepper) {
+        let step: Double = 1.0
         let roundedValue = round(sender.value / step) * step
         sender.value = roundedValue
-        ageLabel.text = String(format: "Age: %.0f yrs old", sender.value)
+        ageLabel.text = String(format: "Age: %.0f", sender.value)
     }
     
     @IBAction func thalSelected(_ sender: UISwitch) {
@@ -64,7 +64,7 @@ class FirstViewController: UIViewController {
         let userDefaults = UserDefaults.standard
     
         // Checks for any fields that user has not given an input for
-        if (ageSlider.value < 1) {
+        if (ageStepper.value == 0) {
             AppHelper.showAlert(title: "ERROR", message: "Please insert your age", target: self);
             return;
         }
@@ -75,12 +75,12 @@ class FirstViewController: UIViewController {
         }
         
         if (cpTextField.text!.isEmpty) {
-            AppHelper.showAlert(title: "ERROR", message: "Please insert your chet pain level", target: self);
+            AppHelper.showAlert(title: "ERROR", message: "Please insert your chest pain level", target: self);
             return;
         }
         
         let userValues: NSDictionary = [
-            "age": Double(ageSlider.value),
+            "age": Double(ageStepper.value),
             "sex": Double(sexSegmentedControl.selectedSegmentIndex),
             "trestbps": Double(trestbpsTextField.text!)!,
             "cp": Double(cpTextField.text!)!,
@@ -96,7 +96,7 @@ class FirstViewController: UIViewController {
     
     // Reset fields to zero for new values to be entered
     func resetFields () -> Void {
-        ageSlider.setValue(0, animated: true)
+        ageStepper.value = 0
         ageLabel.text = "Age: "
         sexSegmentedControl.selectedSegmentIndex = 0
         trestbpsTextField.text = ""
@@ -105,5 +105,32 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func inputValues() {
+    }
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool
+    {
+        // Get URL components from the incoming user activity
+        guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+              let incomingURL = userActivity.webpageURL,
+              let components = NSURLComponents(url: incomingURL, resolvingAgainstBaseURL: true)
+        else {
+            return false
+        }
+        
+        // Check for specific URL components
+        guard let path = components.path,
+              let params = components.queryItems
+        else {
+            return false
+        }
+        print("path = \(path)")
+        
+        if let modelName = params.first(where: { $0.name == "modelname" })?.value {
+            print("model = \(modelName)")
+            return true
+        } else {
+            print("Model name is missing")
+            return false
+        }
     }
 }

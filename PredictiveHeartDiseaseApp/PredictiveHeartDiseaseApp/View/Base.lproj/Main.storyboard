@@ -4,7 +4,7 @@
     <dependencies>
         <deployment version="4608" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="Safe area layout guides" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -87,7 +87,7 @@
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <string key="text">Measures cholesterol levels, which is a fatty substance made by the liver and some by the food that your body takes in. High levels of cholesterol can increase your chance of having a heart attack or a stroke.</string>
+                                                        <string key="text">Measures cholesterol levels, which is a fatty substance made by the liver and by the food that your body takes in. High levels of cholesterol can increase your chance of having a heart attack or a stroke.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -134,7 +134,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0qt-TX-6yr" userLabel="Clots Stack View">
-                                                <rect key="frame" x="10" y="277.66666666666669" width="394" height="94.666666666666686"/>
+                                                <rect key="frame" x="10" y="277.66666666666669" width="394" height="77"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coagulation Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c9-Rc-EO5">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -143,11 +143,11 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhc-pU-FVW">
-                                                        <rect key="frame" x="0.0" y="23" width="394" height="71.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="23" width="394" height="54"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <string key="text">Measures your blood's ability to clot and quickly your blood clots. This test helps the doctor to assess your chances of developing bleeding or clots in your blood vessels. </string>
+                                                        <string key="text">Measures how quickly your blood clots. This test helps the doctor to assess your chances of developing bleeding or clots in your heart's blood vessels. </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -155,7 +155,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0BW-lO-5TG" userLabel="Peptides Stack View">
-                                                <rect key="frame" x="10" y="382.33333333333331" width="394" height="112.66666666666669"/>
+                                                <rect key="frame" x="10" y="364.66666666666669" width="394" height="112.66666666666669"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Natriuretic Peptides Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPH-nZ-pPx">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -176,7 +176,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cGC-NC-jqD" userLabel="Sugar Stack View">
-                                                <rect key="frame" x="10" y="515" width="394" height="130.66666666666663"/>
+                                                <rect key="frame" x="10" y="497.33333333333331" width="394" height="148.33333333333331"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A1C Blood Sugar Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Tm-xO-Xuq" userLabel="A1C Blood Sugar Test:">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -185,11 +185,11 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DO0-gY-RZ9">
-                                                        <rect key="frame" x="0.0" y="23.000000000000007" width="394" height="107.66666666666669"/>
+                                                        <rect key="frame" x="0.0" y="22.999999999999993" width="394" height="125.33333333333331"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <string key="text">Measures the percentage of glucose bound haemoglobin there is present in your blood. A hormone called insulin allows glucose (sugar) to enter your blood. If there is not enough insulin, this glucose will stay in the blood. High blood sugar levels can damage blood vessels, causing diabetes andcoronary heart disease. </string>
+                                                        <string key="text">Measures the percentage of glucose-bound haemoglobin in your blood. A hormone called insulin helps control your body's blood sugar level and metabolism. Insulin allows cells to absorb glucose present in your blood, so if there is not enough insulin, this glucose will stay in the blood. High blood sugar levels can damage blood vessels, causing diabetes and coronary heart disease. </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -223,7 +223,7 @@
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yn-M9-Oai">
                                                 <rect key="frame" x="10" y="733.66666666666663" width="394" height="30"/>
-                                                <state key="normal" title="For more information on Blood Tests"/>
+                                                <state key="normal" title="For more information"/>
                                                 <connections>
                                                     <segue destination="dHD-LU-qV9" kind="show" id="Fd2-T2-o2o"/>
                                                 </connections>
@@ -332,7 +332,7 @@
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
-                                                <string key="text">Cardiac fluoroscopy can help diagnose and treat conditions related to blood vessels. It will show the flow of your blood through the arteries and check if there are any blockages</string>
+                                                <string key="text">Cardiac fluoroscopy can help diagnose and treat conditions related to blood vessels. It will show the flow of your blood through the arteries and check if there are any blockages.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" systemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -367,7 +367,7 @@
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
-                                                <string key="text">An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work  with increased activity.</string>
+                                                <mutableString key="text">An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work with increased activity.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -588,30 +588,30 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qlc-xT-QWl" userLabel="Top Stack View">
-                                                <rect key="frame" x="10" y="20" width="394" height="119"/>
+                                                <rect key="frame" x="10" y="20" width="394" height="120"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sdu-c1-nu6" userLabel="Age/Sex Stack View">
-                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="31"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="32"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xnB-ln-NDm" userLabel="Age Stack View">
-                                                                <rect key="frame" x="0.0" y="0.6666666666666714" width="193" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="193" height="32"/>
                                                                 <subviews>
                                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBD-LO-hC3">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="39.666666666666664" height="30"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="87" height="32"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="zXa-hj-dJr">
-                                                                        <rect key="frame" x="49.666666666666671" y="0.0" width="145.33333333333331" height="31"/>
+                                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="125" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-Lh-Wyx" userLabel="Age Stepper">
+                                                                        <rect key="frame" x="99" y="0.0" width="94" height="32"/>
                                                                         <connections>
-                                                                            <action selector="ageSliderChanged:" destination="chF-lL-v5L" eventType="valueChanged" id="ax9-ME-WeA"/>
+                                                                            <action selector="ageStepperChanged:" destination="chF-lL-v5L" eventType="valueChanged" id="kCq-lK-v1s"/>
                                                                         </connections>
-                                                                    </slider>
+                                                                    </stepper>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Y4-5V-JK7" userLabel="Sex Stack View">
-                                                                <rect key="frame" x="201" y="0.0" width="193" height="31"/>
+                                                                <rect key="frame" x="201" y="0.6666666666666714" width="193" height="31"/>
                                                                 <subviews>
                                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kk-yT-Grq">
                                                                         <rect key="frame" x="0.0" y="0.0" width="36.333333333333336" height="31"/>
@@ -634,7 +634,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GtE-pS-KI5" userLabel="Trestbps Stack View">
-                                                        <rect key="frame" x="0.0" y="41" width="394" height="34"/>
+                                                        <rect key="frame" x="0.0" y="42" width="394" height="34"/>
                                                         <subviews>
                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Pressure (mmHg):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwU-zB-Ehy" userLabel="Trestbps Label">
                                                                 <rect key="frame" x="0.0" y="5" width="289" height="24"/>
@@ -653,7 +653,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="N6K-vj-Hrl" userLabel="Cp Stack View">
-                                                        <rect key="frame" x="0.0" y="85" width="394" height="34"/>
+                                                        <rect key="frame" x="0.0" y="86" width="394" height="34"/>
                                                         <subviews>
                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chest Pain:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC6-Qj-YpN">
                                                                 <rect key="frame" x="0.0" y="5" width="100" height="24"/>
@@ -685,7 +685,7 @@
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Tests" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0s-62-lwB">
-                                                <rect key="frame" x="10" y="159" width="394" height="36"/>
+                                                <rect key="frame" x="10" y="160" width="394" height="36"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
@@ -694,7 +694,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vc-vy-CQh">
-                                                <rect key="frame" x="10" y="205" width="394" height="54"/>
+                                                <rect key="frame" x="10" y="206" width="394" height="54"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
@@ -704,9 +704,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r9g-K9-qWr" userLabel="Cardiac Enzyme Stack View">
-                                                <rect key="frame" x="10" y="299.33333333333331" width="394" height="148.33333333333331"/>
+                                                <rect key="frame" x="10" y="300.33333333333331" width="394" height="148.33333333333331"/>
                                                 <subviews>
-                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardiac Enzyme Test (+ Tropinin Test):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-FS-3U4">
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardiac Enzyme Test (+ Troponin Test):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-FS-3U4">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -717,7 +717,7 @@
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <string key="text">Diagnose or exclude the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       </string>
+                                                        <mutableString key="text">Diagnoses or excludes the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       </mutableString>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -725,7 +725,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="p8J-zD-tqM" userLabel="FBC Stack View">
-                                                <rect key="frame" x="10" y="457.66666666666669" width="394" height="130.66666666666669"/>
+                                                <rect key="frame" x="10" y="458.66666666666669" width="394" height="130.66666666666669"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Blood Count (FBC):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQQ-0a-bJk">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -738,7 +738,7 @@
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <string key="text">Measures the level of haemoglobin in your blood, which allows red blood cells to carry oxygen. This can indicate if you have any infections or anaemia. A low haemoglobin level may mean the presence of anaemia or thalassemia (inherited condition causing your body to carry less haemoglobin than expected).</string>
+                                                        <string key="text">Measures the level of haemoglobin in your blood, which allows red blood cells to carry oxygen. This can indicate if you have any infections or anaemia. A low haemoglobin level may mean the presence of anaemia or thalassemia (an inherited condition causing your body to carry less haemoglobin than expected, which may cause anaemia).</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -746,7 +746,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="sQ2-QO-HLM" userLabel="Thal Stack View">
-                                                <rect key="frame" x="10" y="608.33333333333337" width="394" height="31"/>
+                                                <rect key="frame" x="10" y="609.33333333333337" width="394" height="31"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="omz-ry-cDF" userLabel="Thal Stack View">
                                                         <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
@@ -803,7 +803,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bqJ-wy-8gH" userLabel="Thyroid Stack View">
-                                                <rect key="frame" x="10" y="659.33333333333337" width="394" height="112.66666666666663"/>
+                                                <rect key="frame" x="10" y="660.33333333333337" width="394" height="112.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thyroid Function Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgp-mO-r4L">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -824,14 +824,14 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mu-Bz-sGH">
-                                                <rect key="frame" x="10" y="792" width="394" height="30"/>
+                                                <rect key="frame" x="10" y="793" width="394" height="30"/>
                                                 <state key="normal" title="Continue"/>
                                                 <connections>
                                                     <action selector="continueTapped:" destination="chF-lL-v5L" eventType="touchUpInside" id="xxN-VJ-OM6"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of blood tests" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFR-UG-iPO">
-                                                <rect key="frame" x="10" y="269" width="394" height="20.333333333333314"/>
+                                                <rect key="frame" x="10" y="270" width="394" height="20.333333333333314"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
@@ -893,7 +893,7 @@
                     </view>
                     <connections>
                         <outlet property="ageLabel" destination="aBD-LO-hC3" id="lhI-7b-MzM"/>
-                        <outlet property="ageSlider" destination="zXa-hj-dJr" id="Zta-UD-Vp5"/>
+                        <outlet property="ageStepper" destination="Xf3-Lh-Wyx" id="h4B-fZ-Kdq"/>
                         <outlet property="cpTextField" destination="PDx-hg-Iqd" id="SMr-6e-Q5s"/>
                         <outlet property="scroller" destination="vZO-jp-KOt" id="eB0-Da-0jw"/>
                         <outlet property="sexLabel" destination="9Kk-yT-Grq" id="ZH7-Av-Vb1"/>

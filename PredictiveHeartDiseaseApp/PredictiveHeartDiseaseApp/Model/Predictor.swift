@@ -20,12 +20,12 @@ struct Predictor {
         age:Double, sex:Double, cp:Double, trestbps:Double, chol:Double, fbs:Double, restecg:Double, thalach:Double, exang:Double, oldpeak:Double, slope:Double, ca:Double, thal:Double
         ) -> [String:Any] {
         
-        let model: HeartCalculator = {
+        let model: HeartDiseaseCalculator = {
             do {
                 let config = MLModelConfiguration()
-                return try HeartCalculator(configuration: config)
+                return try HeartDiseaseCalculator(configuration: config)
             } catch {
-                fatalError("Cannot utilise HeartCalculator")
+                fatalError("Cannot utilise HeartDiseaseCalculator model")
             }
         }()
         
@@ -36,19 +36,31 @@ struct Predictor {
         }
         
         let targetValue = mlModelOutput.target
-//        print("CLASS LABEL: \(targetValue)")
         
-//        print(mlModelOutput)
+        // Format some values in the alert
+        let gender: String
+        if sex == 0 {
+            gender = "Female"
+        } else {
+            gender = "Male"
+        }
         
+        let bloodSugar: String
+        if fbs == 0 {
+            bloodSugar = "Less than / equal to 120 mg/dL"
+        } else {
+            bloodSugar = "More than 120 mg/dL"
+        }
+            
         values = """
         
         Age: \(Int(age)) years old
-        Sex: \(Int(sex))
+        Sex: \(gender)
         Chest Pain: \(Int(cp))
         Blood Pressure: \(Int(trestbps)) mmHg
         Cholesterol: \(Int(chol)) mg/dL
-        Blood Sugar Level: \(Int(fbs))
-        Rest ECG results: \(Int(restecg))
+        Blood Sugar Level: \(bloodSugar)
+        Resting ECG results: \(Int(restecg))
         Heart rate: \(Int(thalach)) BPM
         Exercise induced angina: \(Int(exang))
         Oldpeak: \(oldpeak)
