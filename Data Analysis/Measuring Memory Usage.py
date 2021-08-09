@@ -2,11 +2,11 @@ from memory_profiler import profile
 import pickle
 import numpy as np
 
-SVC_model = pickle.load(open('SVC_model.pkl', 'rb'))
-KNN_model = pickle.load(open('KNN_model.pkl', 'rb'))
-NN_model = pickle.load(open('NN_model.pkl', 'rb'))
-LR_model = pickle.load(open('LR_model.pkl', 'rb'))
-GB_model = pickle.load(open('GB_model.pkl', 'rb'))
+SVC_model = pickle.load(open('Model Files/SVC_model.pkl', 'rb'))
+KNN_model = pickle.load(open('Model Files/KNN_model.pkl', 'rb'))
+NN_model = pickle.load(open('Model Files/NN_model.pkl', 'rb'))
+LR_model = pickle.load(open('Model Files/LR_model.pkl', 'rb'))
+GB_model = pickle.load(open('Model Files/GB_model.pkl', 'rb'))
 
 
 @profile(precision=4)
