@@ -130,6 +130,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="cholEntered:" destination="0ay-7G-0D5" eventType="editingDidEnd" id="sVo-Ze-35F"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -218,6 +221,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="fbsEntered:" destination="0ay-7G-0D5" eventType="editingDidEnd" id="KPv-Qw-lMz"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -225,6 +231,7 @@
                                                 <rect key="frame" x="10" y="733.66666666666663" width="394" height="30"/>
                                                 <state key="normal" title="For more information"/>
                                                 <connections>
+                                                    <action selector="websiteClicked:" destination="0ay-7G-0D5" eventType="touchUpInside" id="mrH-mc-USY"/>
                                                     <segue destination="dHD-LU-qV9" kind="show" id="Fd2-T2-o2o"/>
                                                 </connections>
                                             </button>
@@ -353,6 +360,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="caEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="wfJ-OZ-uGf"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -367,7 +377,7 @@
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
-                                                <mutableString key="text">An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work with increased activity.</mutableString>
+                                                <string key="text">An echocardiogram (ECG) scans your heart to give information about its structure and pumping ability. It will help to detect and provide a diagnosis for any abnormalities.   An exercise ECG can be done, where your heart will be put under stress, either by medication or with exercise. It will assess yours heart's health and ability as your heart rate increases. This test will determine how your heart works whilst doing more work with increased activity.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -388,6 +398,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="thalachEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="Pib-st-Q2W"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -416,6 +429,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="exangEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="iaI-Jv-coA"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -435,6 +451,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="oldpeakEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="bPk-JZ-F6g"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -463,6 +482,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="slopeEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="BKc-jK-LqH"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -498,6 +520,9 @@
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="restecgEntered:" destination="nmx-qQ-C1o" eventType="editingDidEnd" id="tws-8M-7My"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -605,6 +630,7 @@
                                                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="125" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-Lh-Wyx" userLabel="Age Stepper">
                                                                         <rect key="frame" x="99" y="0.0" width="94" height="32"/>
                                                                         <connections>
+                                                                            <action selector="ageEntered:" destination="chF-lL-v5L" eventType="touchUpInside" id="FEi-EW-tAX"/>
                                                                             <action selector="ageStepperChanged:" destination="chF-lL-v5L" eventType="valueChanged" id="kCq-lK-v1s"/>
                                                                         </connections>
                                                                     </stepper>
@@ -625,6 +651,9 @@
                                                                             <segment title="Female"/>
                                                                             <segment title="Male"/>
                                                                         </segments>
+                                                                        <connections>
+                                                                            <action selector="sexSelected:" destination="chF-lL-v5L" eventType="valueChanged" id="QdB-0D-Vfn"/>
+                                                                        </connections>
                                                                     </segmentedControl>
                                                                 </subviews>
                                                             </stackView>
@@ -649,6 +678,9 @@
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
+                                                                <connections>
+                                                                    <action selector="trestbpsEntered:" destination="chF-lL-v5L" eventType="editingDidEnd" id="FWm-4j-jYf"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -679,6 +711,9 @@
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
+                                                                <connections>
+                                                                    <action selector="cpEntered:" destination="chF-lL-v5L" eventType="editingDidEnd" id="A1R-pT-21R"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -717,7 +752,7 @@
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
-                                                        <mutableString key="text">Diagnoses or excludes the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       </mutableString>
+                                                        <string key="text">Diagnoses or excludes the event of a previous heart attack. When the heart muscle gets damaged from a heart attack, it releases particular enzymes, such as troponin, into the blood. This blood test will allow you to know the level of these enzymes and if their levels are raised, you may have had a previous heart attack and you may be in risk of having another one.                                                                                                                                                                                                                                                                                                                                                                                                                                       </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>

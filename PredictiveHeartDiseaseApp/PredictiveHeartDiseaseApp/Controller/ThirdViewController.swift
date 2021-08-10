@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreML
+import Firebase
 
 class ThirdViewController: UIViewController {
     
@@ -23,6 +24,34 @@ class ThirdViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    @IBAction func caEntered(_ sender: UITextField) {
+        Analytics.logEvent("ca_entered", parameters: nil)
+    }
+    
+    @IBAction func thalachEntered(_ sender: UITextField) {
+        Analytics.logEvent("thalach_entered", parameters: nil)
+    }
+    
+    
+    @IBAction func restecgEntered(_ sender: UITextField) {
+        Analytics.logEvent("restecg_entered", parameters: nil)
+    }
+    
+    @IBAction func exangEntered(_ sender: UITextField) {
+        Analytics.logEvent("exang_entered", parameters: nil)
+    }
+    
+    
+    @IBAction func oldpeakEntered(_ sender: UITextField) {
+        Analytics.logEvent("oldpeak_entered", parameters: nil)
+    }
+    
+    
+    @IBAction func slopeEntered(_ sender: UITextField) {
+        Analytics.logEvent("slope_entered", parameters: nil)
     }
     
     @IBAction func backTapped(_ sender: UIButton) {
@@ -74,7 +103,8 @@ class ThirdViewController: UIViewController {
         mutableUserValues.setValue(Double(slopeTextField.text!)!, forKey: "slope")
         
         userDefaults.set(mutableUserValues.copy(), forKey: "UserValues") // Save user values in a dictionary called 'UserValues'
-        userDefaults.synchronize();
+        userDefaults.synchronize()
+        Analytics.logEvent("target_generated", parameters: nil)
         
         processValues()
     }
