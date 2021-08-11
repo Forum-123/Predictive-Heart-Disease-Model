@@ -66,7 +66,7 @@ struct Predictor {
         Oldpeak: \(oldpeak)
         Slope: \(Int(slope))
         Vessels shown in fluoroscopy: \(Int(ca))
-        Thalassemia: \(Int(thal))
+        Thallium test result: \(Int(thal))
         """
         
         if targetValue == Int64(0) {

@@ -630,7 +630,7 @@
                                                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="125" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-Lh-Wyx" userLabel="Age Stepper">
                                                                         <rect key="frame" x="99" y="0.0" width="94" height="32"/>
                                                                         <connections>
-                                                                            <action selector="ageEntered:" destination="chF-lL-v5L" eventType="touchUpInside" id="FEi-EW-tAX"/>
+                                                                            <action selector="ageEntered:" destination="chF-lL-v5L" eventType="touchDown" id="5iS-R0-ect"/>
                                                                             <action selector="ageStepperChanged:" destination="chF-lL-v5L" eventType="valueChanged" id="kCq-lK-v1s"/>
                                                                         </connections>
                                                                     </stepper>
@@ -719,8 +719,29 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Xvd-MV-glp" userLabel="Thal Test Stack View">
+                                                <rect key="frame" x="10" y="160" width="394" height="202.33333333333337"/>
+                                                <subviews>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thallium Stress Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f12-dV-BcH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJw-4k-Cc9">
+                                                        <rect key="frame" x="0.0" y="23" width="394" height="179.33333333333334"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                        </accessibility>
+                                                        <mutableString key="text">Studies how well the blood flows to your heart. Thallium (dye) is entered through an IV to see the movement of the blood. Images of the heart are taken whilst resting and whilst exercising. The two images are compared to decide whether there is a normal, abnormal or low blood flow to the heart. Cold spots are where no thallium shows up in the heart, so if they appear at rest and during exercise, the heart tissue is damaged (fixed defect). However, if they only appear during exercise, there may be some blockage of arteries (reversable defect). </mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Tests" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0s-62-lwB">
-                                                <rect key="frame" x="10" y="160" width="394" height="36"/>
+                                                <rect key="frame" x="10" y="433.33333333333331" width="394" height="36"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
@@ -729,7 +750,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vc-vy-CQh">
-                                                <rect key="frame" x="10" y="206" width="394" height="54"/>
+                                                <rect key="frame" x="10" y="479.33333333333337" width="394" height="54"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
@@ -739,7 +760,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r9g-K9-qWr" userLabel="Cardiac Enzyme Stack View">
-                                                <rect key="frame" x="10" y="300.33333333333331" width="394" height="148.33333333333331"/>
+                                                <rect key="frame" x="10" y="573.66666666666663" width="394" height="148.33333333333337"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardiac Enzyme Test (+ Troponin Test):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-FS-3U4">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -760,7 +781,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="p8J-zD-tqM" userLabel="FBC Stack View">
-                                                <rect key="frame" x="10" y="458.66666666666669" width="394" height="130.66666666666669"/>
+                                                <rect key="frame" x="10" y="732" width="394" height="130.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Blood Count (FBC):" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQQ-0a-bJk">
                                                         <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
@@ -769,7 +790,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yr-Qf-vIt">
-                                                        <rect key="frame" x="0.0" y="22.99999999999995" width="394" height="107.66666666666669"/>
+                                                        <rect key="frame" x="0.0" y="23.000000000000007" width="394" height="107.66666666666669"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                         </accessibility>
@@ -780,8 +801,45 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bqJ-wy-8gH" userLabel="Thyroid Stack View">
+                                                <rect key="frame" x="10" y="872.66666666666663" width="394" height="112.66666666666663"/>
+                                                <subviews>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thyroid Function Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgp-mO-r4L">
+                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnH-12-FhM">
+                                                        <rect key="frame" x="0.0" y="23.000000000000007" width="394" height="89.666666666666686"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                        </accessibility>
+                                                        <string key="text">Shows if you have underactive or overactive thyroid gland as both situations produce a hormone called thyroxine. Any abnormal levels of this hormone can be related to some heart conditions and having a slow or fast heart rate.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mu-Bz-sGH">
+                                                <rect key="frame" x="10" y="1005.3333333333333" width="394" height="30"/>
+                                                <state key="normal" title="Continue"/>
+                                                <connections>
+                                                    <action selector="continueTapped:" destination="chF-lL-v5L" eventType="touchUpInside" id="xxN-VJ-OM6"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of blood tests" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFR-UG-iPO">
+                                                <rect key="frame" x="10" y="543.33333333333337" width="394" height="20.333333333333371"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                </accessibility>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="sQ2-QO-HLM" userLabel="Thal Stack View">
-                                                <rect key="frame" x="10" y="609.33333333333337" width="394" height="31"/>
+                                                <rect key="frame" x="10" y="382.33333333333331" width="394" height="31"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="omz-ry-cDF" userLabel="Thal Stack View">
                                                         <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
@@ -807,7 +865,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wid-pI-PXL" userLabel="Thal Type Stack View">
-                                                        <rect key="frame" x="201" y="0.66666666666662877" width="193" height="30"/>
+                                                        <rect key="frame" x="201" y="0.66666666666668561" width="193" height="30"/>
                                                         <subviews>
                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Al-5E-rXJ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
@@ -837,55 +895,18 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bqJ-wy-8gH" userLabel="Thyroid Stack View">
-                                                <rect key="frame" x="10" y="660.33333333333337" width="394" height="112.66666666666663"/>
-                                                <subviews>
-                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thyroid Function Test:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgp-mO-r4L">
-                                                        <rect key="frame" x="0.0" y="0.0" width="394" height="18"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnH-12-FhM">
-                                                        <rect key="frame" x="0.0" y="23.000000000000007" width="394" height="89.666666666666686"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                        </accessibility>
-                                                        <string key="text">Shows if you have underactive or overactive thyroid gland as both situations produce a hormone called thyroxine. Any abnormal levels of this hormone can be related to some heart conditions and having a slow or fast heart rate.</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mu-Bz-sGH">
-                                                <rect key="frame" x="10" y="793" width="394" height="30"/>
-                                                <state key="normal" title="Continue"/>
-                                                <connections>
-                                                    <action selector="continueTapped:" destination="chF-lL-v5L" eventType="touchUpInside" id="xxN-VJ-OM6"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of blood tests" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFR-UG-iPO">
-                                                <rect key="frame" x="10" y="270" width="394" height="20.333333333333314"/>
-                                                <accessibility key="accessibilityConfiguration">
-                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                </accessibility>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="bqJ-wy-8gH" secondAttribute="trailing" constant="10" id="1f5-RF-x9j"/>
+                                            <constraint firstItem="Xvd-MV-glp" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="31e-0a-T4t"/>
                                             <constraint firstItem="4Mu-Bz-sGH" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="3qj-eP-95t"/>
                                             <constraint firstItem="p8J-zD-tqM" firstAttribute="top" secondItem="r9g-K9-qWr" secondAttribute="bottom" constant="10" id="416-jC-cj9"/>
                                             <constraint firstAttribute="trailing" secondItem="4Mu-Bz-sGH" secondAttribute="trailing" constant="10" id="6MM-uR-0wA"/>
-                                            <constraint firstItem="bqJ-wy-8gH" firstAttribute="top" secondItem="sQ2-QO-HLM" secondAttribute="bottom" constant="20" id="7jS-O4-WXz"/>
                                             <constraint firstItem="Qlc-xT-QWl" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="8LU-u5-Xsd"/>
                                             <constraint firstItem="8vc-vy-CQh" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="8n7-wi-oyk"/>
                                             <constraint firstAttribute="trailing" secondItem="A0s-62-lwB" secondAttribute="trailing" constant="10" id="8uK-qx-pgc"/>
-                                            <constraint firstItem="sQ2-QO-HLM" firstAttribute="top" secondItem="p8J-zD-tqM" secondAttribute="bottom" constant="20" id="BTP-RQ-TfD"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xvd-MV-glp" secondAttribute="trailing" constant="10" id="ACS-jP-USO"/>
                                             <constraint firstAttribute="trailing" secondItem="r9g-K9-qWr" secondAttribute="trailing" constant="10" id="D9s-8G-k46"/>
                                             <constraint firstAttribute="trailing" secondItem="sQ2-QO-HLM" secondAttribute="trailing" constant="10" id="FBN-ub-yLH"/>
                                             <constraint firstAttribute="trailing" secondItem="8vc-vy-CQh" secondAttribute="trailing" constant="10" id="GYB-rA-1uZ"/>
@@ -898,11 +919,14 @@
                                             <constraint firstItem="8vc-vy-CQh" firstAttribute="top" secondItem="A0s-62-lwB" secondAttribute="bottom" constant="10" id="S8b-8d-y7y"/>
                                             <constraint firstItem="p8J-zD-tqM" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="TJF-aJ-KmP"/>
                                             <constraint firstItem="Qlc-xT-QWl" firstAttribute="top" secondItem="1QB-jp-NLo" secondAttribute="top" constant="20" id="Veh-49-cHq"/>
-                                            <constraint firstItem="A0s-62-lwB" firstAttribute="top" secondItem="Qlc-xT-QWl" secondAttribute="bottom" constant="20" id="W2V-4M-yfD"/>
                                             <constraint firstItem="eFR-UG-iPO" firstAttribute="leading" secondItem="1QB-jp-NLo" secondAttribute="leading" constant="10" id="Ycx-PJ-J9c"/>
                                             <constraint firstItem="r9g-K9-qWr" firstAttribute="top" secondItem="eFR-UG-iPO" secondAttribute="bottom" constant="10" id="ceH-RE-MN7"/>
+                                            <constraint firstItem="Xvd-MV-glp" firstAttribute="top" secondItem="Qlc-xT-QWl" secondAttribute="bottom" constant="20" id="eO6-l1-rfV"/>
                                             <constraint firstItem="4Mu-Bz-sGH" firstAttribute="top" secondItem="bqJ-wy-8gH" secondAttribute="bottom" constant="20" id="efB-vY-z34"/>
+                                            <constraint firstItem="bqJ-wy-8gH" firstAttribute="top" secondItem="p8J-zD-tqM" secondAttribute="bottom" constant="10" id="foi-3p-h78"/>
                                             <constraint firstAttribute="trailing" secondItem="eFR-UG-iPO" secondAttribute="trailing" constant="10" id="rzN-D5-Vmj"/>
+                                            <constraint firstItem="A0s-62-lwB" firstAttribute="top" secondItem="sQ2-QO-HLM" secondAttribute="bottom" constant="20" id="wJJ-YB-231"/>
+                                            <constraint firstItem="sQ2-QO-HLM" firstAttribute="top" secondItem="Xvd-MV-glp" secondAttribute="bottom" constant="20" id="xxW-1d-Nrv"/>
                                             <constraint firstAttribute="trailing" secondItem="Qlc-xT-QWl" secondAttribute="trailing" constant="10" id="zNV-5y-Flc"/>
                                         </constraints>
                                     </view>

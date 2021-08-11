@@ -28,30 +28,30 @@ class ThirdViewController: UIViewController {
     
     
     @IBAction func caEntered(_ sender: UITextField) {
-        Analytics.logEvent("ca_entered", parameters: nil)
+        Analytics.logEvent("ca_entered", parameters: ["user_value": sender.text!])
     }
     
     @IBAction func thalachEntered(_ sender: UITextField) {
-        Analytics.logEvent("thalach_entered", parameters: nil)
+        Analytics.logEvent("thalach_entered", parameters: ["user_value": sender.text!])
     }
     
     
     @IBAction func restecgEntered(_ sender: UITextField) {
-        Analytics.logEvent("restecg_entered", parameters: nil)
+        Analytics.logEvent("restecg_entered", parameters: ["user_value": sender.text!])
     }
     
     @IBAction func exangEntered(_ sender: UITextField) {
-        Analytics.logEvent("exang_entered", parameters: nil)
+        Analytics.logEvent("exang_entered", parameters: ["user_value": sender.text!])
     }
     
     
     @IBAction func oldpeakEntered(_ sender: UITextField) {
-        Analytics.logEvent("oldpeak_entered", parameters: nil)
+        Analytics.logEvent("oldpeak_entered", parameters: ["user_value": sender.text!])
     }
     
     
     @IBAction func slopeEntered(_ sender: UITextField) {
-        Analytics.logEvent("slope_entered", parameters: nil)
+        Analytics.logEvent("slope_entered", parameters: ["user_value": sender.text!])
     }
     
     @IBAction func backTapped(_ sender: UIButton) {

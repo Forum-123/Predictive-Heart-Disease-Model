@@ -22,12 +22,11 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func cholEntered(_ sender: UITextField) {
-        Analytics.logEvent("chol_entered", parameters: nil)
+        Analytics.logEvent("chol_entered", parameters: ["user_value": sender.text!])
     }
     
-    
     @IBAction func fbsEntered(_ sender: UITextField) {
-        Analytics.logEvent("fbs_entered", parameters: nil)
+        Analytics.logEvent("fbs_entered", parameters: ["user_value": sender.text!])
     }
     
     @IBAction func websiteClicked(_ sender: UIButton) {
