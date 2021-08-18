@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreML
+import Firebase
 
 class FirstViewController: UIViewController {
     
@@ -40,12 +41,28 @@ class FirstViewController: UIViewController {
             self.present(thirdPage, animated: true, completion: nil)
         }
     }
-    
+     
     @IBAction func ageStepperChanged(_ sender: UIStepper) {
         let step: Double = 1.0
         let roundedValue = round(sender.value / step) * step
         sender.value = roundedValue
         ageLabel.text = String(format: "Age: %.0f", sender.value)
+    }
+    
+    @IBAction func ageEntered(_ sender: UIStepper) {
+        Analytics.logEvent("age_entered", parameters: ["user_value": sender.value])
+    }
+    
+    @IBAction func sexSelected(_ sender: UISegmentedControl) {
+        Analytics.logEvent("sex_entered", parameters: ["user_value": sender.selectedSegmentIndex])
+    }
+    
+    @objc func trestbpsEntered(_ sender: UITextField) {
+        Analytics.logEvent("trestbps_entered", parameters: ["user_value": sender.text!])
+    }
+    
+    @IBAction func cpEntered(_ sender: UITextField) {
+        Analytics.logEvent("cp_entered", parameters: ["user_value": sender.text!])
     }
     
     @IBAction func thalSelected(_ sender: UISwitch) {
@@ -58,6 +75,7 @@ class FirstViewController: UIViewController {
             thalTypeDescription.isEnabled = false
             thalTypeTextField.isEnabled = false
         }
+        Analytics.logEvent("thal_entered", parameters: nil)
     }
     
     @IBAction func continueTapped(_ sender: UIButton) {
@@ -79,12 +97,19 @@ class FirstViewController: UIViewController {
             return;
         }
         
+        if (thalSwitch.isOn) {
+            if (thalTypeTextField.text!.isEmpty) {
+                AppHelper.showAlert(title: "ERROR", message: "Please insert your Thallium stress test result", target: self);
+                return;
+            }
+        }
+        
         let userValues: NSDictionary = [
             "age": Double(ageStepper.value),
             "sex": Double(sexSegmentedControl.selectedSegmentIndex),
             "trestbps": Double(trestbpsTextField.text!)!,
             "cp": Double(cpTextField.text!)!,
-            "thal": thalSwitch.isOn ? Double(thalTypeTextField.text!)! : Double(3)
+            "thal": thalSwitch.isOn ? Double(thalTypeTextField.text!) as NSDictionary.Value : Double(3)
         ];
         
         userDefaults.set(userValues, forKey: "UserValues")  // Save user values in a dictionary called 'UserValues'

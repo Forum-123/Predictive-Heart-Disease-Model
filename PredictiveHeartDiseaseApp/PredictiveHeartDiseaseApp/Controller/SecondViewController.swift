@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreML
+import Firebase
 
 class SecondViewController: UIViewController {
     
@@ -17,6 +18,19 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    @IBAction func cholEntered(_ sender: UITextField) {
+        Analytics.logEvent("chol_entered", parameters: ["user_value": sender.text!])
+    }
+    
+    @IBAction func fbsEntered(_ sender: UITextField) {
+        Analytics.logEvent("fbs_entered", parameters: ["user_value": sender.text!])
+    }
+    
+    @IBAction func websiteClicked(_ sender: UIButton) {
+        Analytics.logEvent("website_clicked", parameters: nil)
     }
     
     @IBAction func continueTapped(_ sender: UIButton) {
@@ -40,7 +54,7 @@ class SecondViewController: UIViewController {
         mutableUserValues.setValue(Double(fbsTextField.text!)!, forKey: "fbs")
         
         userDefaults.set(mutableUserValues.copy(), forKey: "UserValues") // Save user values in a dictionary called 'UserValues'
-        userDefaults.synchronize();
+        userDefaults.synchronize()
         
         resetFields()
         NotificationCenter.default.post(name: Notification.Name("ShowThirdPage"), object: nil)
