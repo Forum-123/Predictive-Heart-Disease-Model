@@ -685,9 +685,6 @@
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
-                                                                <connections>
-                                                                    <action selector="trestbpsEntered:" destination="chF-lL-v5L" eventType="editingDidEnd" id="FWm-4j-jYf"/>
-                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>

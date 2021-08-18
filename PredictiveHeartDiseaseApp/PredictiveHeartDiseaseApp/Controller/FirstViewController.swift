@@ -57,7 +57,7 @@ class FirstViewController: UIViewController {
         Analytics.logEvent("sex_entered", parameters: ["user_value": sender.selectedSegmentIndex])
     }
     
-    @IBAction func trestbpsEntered(_ sender: UITextField) {
+    @objc func trestbpsEntered(_ sender: UITextField) {
         Analytics.logEvent("trestbps_entered", parameters: ["user_value": sender.text!])
     }
     
