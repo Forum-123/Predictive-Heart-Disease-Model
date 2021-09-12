@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BB77A249F548FCCD7552520 /* Pods_PredictiveHeartDiseaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15C316C84DBA9FB3C4DAC6 /* Pods_PredictiveHeartDiseaseApp.framework */; };
+		1EAACB1046722E72CA5FBFEF /* Pods_PredictiveHeartDiseaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988D1532E1B96BAD9C1DDFFC /* Pods_PredictiveHeartDiseaseApp.framework */; };
 		DC1B7EB726A88AE600D638E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B7EB626A88AE600D638E4 /* SecondViewController.swift */; };
 		DC1B7EB926A8938700D638E4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B7EB826A8938700D638E4 /* ThirdViewController.swift */; };
 		DC1B7EBB26A899EB00D638E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B7EBA26A899EB00D638E4 /* FirstViewController.swift */; };
@@ -25,9 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C15C316C84DBA9FB3C4DAC6 /* Pods_PredictiveHeartDiseaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PredictiveHeartDiseaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9D179958DE6CD0CEB4379F /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredictiveHeartDiseaseApp.release.xcconfig"; path = "Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp.release.xcconfig"; sourceTree = "<group>"; };
-		86C15BBF9A5B1C1365AEFD3B /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredictiveHeartDiseaseApp.debug.xcconfig"; path = "Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA05B8E96633A080ED2E4CD /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredictiveHeartDiseaseApp.debug.xcconfig"; path = "Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6017FEB0C8BB72F276AB0AC3 /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PredictiveHeartDiseaseApp.release.xcconfig"; path = "Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		988D1532E1B96BAD9C1DDFFC /* Pods_PredictiveHeartDiseaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PredictiveHeartDiseaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1B7EB626A88AE600D638E4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DC1B7EB826A8938700D638E4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		DC1B7EBA26A899EB00D638E4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC486FCA26A9E27E0018CD37 /* WebKit.framework in Frameworks */,
-				8BB77A249F548FCCD7552520 /* Pods_PredictiveHeartDiseaseApp.framework in Frameworks */,
+				1EAACB1046722E72CA5FBFEF /* Pods_PredictiveHeartDiseaseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DC486FC926A9E27E0018CD37 /* WebKit.framework */,
-				4C15C316C84DBA9FB3C4DAC6 /* Pods_PredictiveHeartDiseaseApp.framework */,
+				988D1532E1B96BAD9C1DDFFC /* Pods_PredictiveHeartDiseaseApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,8 +134,8 @@
 		E01165AF94181F27B24E3FAA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86C15BBF9A5B1C1365AEFD3B /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */,
-				5A9D179958DE6CD0CEB4379F /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */,
+				5CA05B8E96633A080ED2E4CD /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */,
+				6017FEB0C8BB72F276AB0AC3 /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,11 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC9E570269B547300F42A5A /* Build configuration list for PBXNativeTarget "PredictiveHeartDiseaseApp" */;
 			buildPhases = (
-				6EB5BC4977743ED9E9383844 /* [CP] Check Pods Manifest.lock */,
+				E657FED92E75AFAB7C8812FC /* [CP] Check Pods Manifest.lock */,
 				DCC9E557269B547200F42A5A /* Sources */,
 				DCC9E558269B547200F42A5A /* Frameworks */,
 				DCC9E559269B547200F42A5A /* Resources */,
-				F31DC7F589844DD39A8F9D51 /* [CP] Embed Pods Frameworks */,
+				C7FBE9BBF91E95F753BAA3D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,7 +211,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EB5BC4977743ED9E9383844 /* [CP] Check Pods Manifest.lock */ = {
+		C7FBE9BBF91E95F753BAA3D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E657FED92E75AFAB7C8812FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,23 +248,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F31DC7F589844DD39A8F9D51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PredictiveHeartDiseaseApp/Pods-PredictiveHeartDiseaseApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +413,7 @@
 		};
 		DCC9E571269B547300F42A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86C15BBF9A5B1C1365AEFD3B /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */;
+			baseConfigurationReference = 5CA05B8E96633A080ED2E4CD /* Pods-PredictiveHeartDiseaseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,7 +432,7 @@
 		};
 		DCC9E572269B547300F42A5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A9D179958DE6CD0CEB4379F /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */;
+			baseConfigurationReference = 6017FEB0C8BB72F276AB0AC3 /* Pods-PredictiveHeartDiseaseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

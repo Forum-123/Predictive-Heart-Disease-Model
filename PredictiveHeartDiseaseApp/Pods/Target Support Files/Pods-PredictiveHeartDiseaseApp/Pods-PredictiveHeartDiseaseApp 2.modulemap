@@ -1,0 +1,6 @@
+framework module Pods_PredictiveHeartDiseaseApp {
+  umbrella header "Pods-PredictiveHeartDiseaseApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

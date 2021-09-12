@@ -9,6 +9,7 @@
 import UIKit
 import CoreML
 import Firebase
+import FirebaseAnalytics
 
 class SecondViewController: UIViewController {
     
