@@ -5,9 +5,7 @@ Code for this project is accessible on [Github](https://github.com/Forum-123/Pre
 
 ![iOS](https://img.shields.io/badge/iOS-12.1-blue) ![macOS](https://img.shields.io/badge/macOS-11.5-blue) ![XCode](https://img.shields.io/badge/XCode-12.5-blue) ![Swift](https://img.shields.io/badge/Swift-5-blue)
 
-<img src="https://user-images.githubusercontent.com/69541616/129606144-bb46f234-082f-4806-bf48-8342bb6ec7c1.png" width="33%">
-<img src="https://user-images.githubusercontent.com/69541616/129606153-d3e6d68e-5f43-4736-8033-1f151082d80b.png" width=33%>
-<img src="https://user-images.githubusercontent.com/69541616/129606161-dc9fea7a-33f9-4333-b559-252ab24bec7b.png" width=33%>
+<img src="https://user-images.githubusercontent.com/69541616/129606144-bb46f234-082f-4806-bf48-8342bb6ec7c1.png" width=33%> <img src="https://user-images.githubusercontent.com/69541616/129606153-d3e6d68e-5f43-4736-8033-1f151082d80b.png" width=33%> <img src="https://user-images.githubusercontent.com/69541616/129606161-dc9fea7a-33f9-4333-b559-252ab24bec7b.png" width=33%>
 
 ### Features
 - Prototype application for a mobile device for the user to use. This offers a visual display and automated response to the user of their chances of having heart disease. 
