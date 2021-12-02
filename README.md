@@ -1,6 +1,6 @@
 
-# Heart Disease Predictor
-##### *A prototype iOS application for predicting the presence of heart disease in patients using Machine Learning*
+# HealthCloud
+##### *HealthCloud: A System for Monitoring Health Status of Heart Patients using Machine Learning and Cloud Computing*
 Code for this project is accessible on [Github](https://github.com/Forum-123/Predictive-Heart-Disease-Model)
 
 ![iOS](https://img.shields.io/badge/iOS-12.1-blue) ![macOS](https://img.shields.io/badge/macOS-11.5-blue) ![XCode](https://img.shields.io/badge/XCode-12.5-blue) ![Swift](https://img.shields.io/badge/Swift-5-blue)
