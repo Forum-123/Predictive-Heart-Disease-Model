@@ -36,8 +36,8 @@ cd Data Analysis
 The original Heart Disease dataset can be downloaded from the [UCI Machine Learning Repository's Heart Disease directory](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/) (processed.cleveland.data).
 Database Donor: David W. Aha (aha@ics.uci.edu) (714) 856-8779
 
-### Author
-Forum Desai, forumd1999@gmail.com
+### Warning
+The copyright of the shared work is reserved. Reference should be cite to the HealthCloud article for use in academic studies.
 
-### Acknowledgements
-I would like to thank my project supervisor, [Dr. Sukhpal Singh Gill](https://github.com/iamssgill) for his support and guidance during this project.
+### To cite
+Forum Desai, Deepraj Chowdhury, Rupinder Kaur, Marloes Peeters, Rajesh Chand Arya,Gurpreet Singh Wander, Sukhpal Singh Gill and Rajkumar Buyya, HealthCloud: A system for monitoring health status of heart patients using machine learning and cloud computing, Elsevier Internet of Things (2021), doi: https://doi.org/10.1016/j.iot.2021.100485.
