@@ -40,4 +40,6 @@ Database Donor: David W. Aha (aha@ics.uci.edu) (714) 856-8779
 The copyright of the shared work is reserved. Reference should be cite to the HealthCloud article for use in academic studies.
 
 ### To cite
-Forum Desai, Deepraj Chowdhury, Rupinder Kaur, Marloes Peeters, Rajesh Chand Arya, Gurpreet Singh Wander, Sukhpal Singh Gill and Rajkumar Buyya, HealthCloud: A system for monitoring health status of heart patients using machine learning and cloud computing, Elsevier Internet of Things (2021), doi: https://doi.org/10.1016/j.iot.2021.100485.
+Forum Desai, Deepraj Chowdhury, Rupinder Kaur, Marloes Peeters, Rajesh Chand Arya, Gurpreet Singh Wander, Sukhpal Singh Gill, Rajkumar Buyya, HealthCloud: A system for monitoring health status of heart patients using machine learning and cloud computing, Internet of Things, Volume 17, 2022, 100485, https://doi.org/10.1016/j.iot.2021.100485.
+or
+@article{DESAI2022100485, title = {HealthCloud: A system for monitoring health status of heart patients using machine learning and cloud computing}, journal = {Internet of Things}, volume = {17}, pages = {100485}, year = {2022}, issn = {2542-6605}, doi = {https://doi.org/10.1016/j.iot.2021.100485} }
