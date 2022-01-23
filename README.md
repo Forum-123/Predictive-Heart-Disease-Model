@@ -44,3 +44,6 @@ Forum Desai, Deepraj Chowdhury, Rupinder Kaur, Marloes Peeters, Rajesh Chand Ary
 
 ### To cite (.bib)
 @article{DESAI2022100485, title = {HealthCloud: A system for monitoring health status of heart patients using machine learning and cloud computing},  author={Desai, Forum and   Chowdhury, Deepraj and Kaur, Rupinder and Peeters, Marloes and Arya, Rajesh Chand and Wander, Gurpreet Singh and Gill, Sukhpal Singh and Buyya, Rajkumar}, journal = {Internet of Things}, volume = {17}, pages = {100485}, year = {2022}, issn = {2542-6605}, doi = {https://doi.org/10.1016/j.iot.2021.100485 } }
+
+### Acknowledgements
+I would like to thank my project supervisor, [Dr. Sukhpal Singh Gill](https://github.com/iamssgill) for his support and guidance during this project.
